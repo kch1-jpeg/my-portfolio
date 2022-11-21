@@ -9,9 +9,9 @@ font-family: 'Roboto', sans-serif;
   --color_4: rgb(139, 128, 114);
   --color_5: rgb(185, 171, 152);
   --color_6: rgb(235, 229, 221);
-  --color_7: rgb(88,85,80);
-  --color_8: rgb(60,79,87);
-  --color_9: rgb(0,0,0);
+  --color_7: rgb(88, 85, 80);
+  --color_8: rgb(60, 79, 87);
+  --color_9: rgb(0, 0, 0);
   --heading-font-family: "Josefin Sans", sans-serif;
   --default-font-family: "Roboto", sans-serif;
 }
@@ -25,11 +25,22 @@ h6 {
   font-family: var(--heading-font-family);
   font-weight: bold;
 }
-.row h2 {
-  font-size: 54px;
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
 }
-#desc{
-    color: var(--color_7);
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+.about-section{
+    padding: 160px 20px;
+}
+.about-section-content{
+    margin:30px;
+}
+#desc {
+  color: var(--color_7);
 }
 h1 {
   font-size: 96px;
@@ -73,7 +84,7 @@ p {
   opacity: 50;
 }
 
-.hero a {
+a {
   color: white;
   text-decoration: none;
 }
@@ -102,5 +113,9 @@ p {
     padding: 0;
     text-align: center;
     flex: inline;
+  }
+  .about-section{
+    text-align:center;
+    padding:0;
   }
 }
