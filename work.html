@@ -31,42 +31,94 @@
 
   <body>
     <div class="container">
-    <nav class="d-flex justify-content-between">
-        
-        <p><strong>Kira </strong>Chandler</p>
+      <nav class="d-flex justify-content-between">
+        <p class="d-none d-md-block"><strong>Kira </strong>Chandler</p>
         <ul>
-            <li ><a href="/index.html" title="Homepage">Home</a></li>
-            <li><a href="/about.html" title="About page">About</a></li>
-            <li class="active"><a href="/work.html" title="Work page">Work</a></li>
-            <li><a href="/contact.html" title="Contact page">Contact</a></li>
+          <li><a href="/index.html" title="Homepage">Home</a></li>
+          <li><a href="/about.html" title="About page">About</a></li>
+          <li class="active">
+            <a href="/work.html" title="Work page">Work</a>
+          </li>
+          <li><a href="/contact.html" title="Contact page">Contact</a></li>
         </ul>
-        
-    </nav>
+      </nav>
     </div>
     <div class="content-container container">
       <div class="content">
         <h1 class="mb-4">Take a look at what I have been working on</h1>
-        <dic class="row">
-            <div class="col-md-6 mb-4">
-<img src="whippets.png" class="img-fluid mb-3 rounded" alt="whippet"/> 
-<h3 class="text-center m-0">Whippet Project</h3>
-<p class="text-center text-muted">Built with HTML and CSS</p>
+        <div class="container">
+          <div class="row mb-5">
+            <div class="col d-none d-lg-block">
+              <img
+                src="whippets.png"
+                alt="whippet"
+                width="500px"
+                class="img-fluid"
+              />
             </div>
-            <div class="col-md-6 mb-4">
-<img src="weather-app.png" class="img-fluid mb-3 rounded" alt="weather"/> 
-<h3 class="text-center m-0">Weather App</h3>
-<p class="text-center text-muted">Built with HTML, CSS and JavaScript</p>
+            <div class="col">
+              <div class="project-description">
+                <h2 class="mb-5 mr-0">Whippet Project</h2>
+                <p class="mb-5 text-muted">Built with HTML and CSS</p>
+
+                <button class="secondaryButton">
+                  <a
+                    href="https://s3.amazonaws.com/shecodesio-production/challenge_submissions/files/001/007/330/original/project1.html?1657984492"
+                    target="_blank"
+                    title="Whippet website"
+                    class="btn btn-branding"
+                    >Learn more</a
+                  >
+                </button>
+              </div>
             </div>
+          </div>
+          <div class="container">
+            <div class="row mb-5">
+              <div class="col d-none d-lg-block">
+                <img
+                  src="weather-app.png"
+                  alt="whippet"
+                  width="500px"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="col">
+                <div class="project-description">
+                  <h2 class="mb-5 mr-0">Weather App</h2>
+                  <p class="mb-5 text-muted">
+                    Built with HTML, CSS and JavaScript
+                  </p>
+                  <button class="secondaryButton">
+                    <a
+                      href="https://gleaming-melomakarona-2f6ff0.netlify.app/"
+                      target="_blank"
+                      title="Weather app"
+                      class="btn secondaryButton"
+                      >Learn more</a
+                    >
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    <footer class="container">
-      <div class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex">
-        <div><h3>Work Enquiry</h3>
-        <p class="text-muted">Let's work together</p></div>
-        <div><a href="/contact.html"><button class="primaryButton">Contact me</button></a></div>
-      </div>
-      
+      <footer class="container">
+        <div
+          class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+        >
+          <div>
+            <h3>Work Enquiry</h3>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a href="/contact.html"
+              ><button class="primaryButton">Contact me</button></a
+            >
+          </div>
+        </div>
+
         <div class="social-links d-flex justify-content-center">
           <a href="https://www.github.com/patricia" target="_blank">
             <i class="fab fa-github"></i>
@@ -80,10 +132,7 @@
         </div>
         <p class="open-source text-center mt-5">
           🏔 This website was coded by Kira C and is
-          <a
-            href="https://github.com/kch1-jpeg/my-portfolio"
-            target="_blank"
-          >
+          <a href="https://github.com/kch1-jpeg/my-portfolio" target="_blank">
             open-sourced
           </a>
         </p>
